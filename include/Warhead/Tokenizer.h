@@ -2,8 +2,7 @@
  * This file is part of the WarheadStringUtils Project. See LICENSE file for Copyright information
  */
 
-#ifndef WARHEAD_STRING_TOKENIZER_H_
-#define WARHEAD_STRING_TOKENIZER_H_
+#pragma once
 
 #include "Convert.h"
 #include <vector>
@@ -95,5 +94,3 @@ namespace Warhead::String
         bool _keepEmpty{};
     };
 }
-
-#endif

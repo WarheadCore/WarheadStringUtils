@@ -2,8 +2,7 @@
  * This file is part of the WarheadStringUtils Project. See LICENSE file for Copyright information
  */
 
-#ifndef WARHEAD_STRING_UTILS_H_
-#define WARHEAD_STRING_UTILS_H_
+#pragma once
 
 #include "Algorithm.h"
 #include <charconv>
@@ -137,5 +136,3 @@ namespace Warhead::String
         return Warhead::Impl::StringConvert::ConvertImpl<T>::Convert(str, std::forward<Args>(args)...);
     }
 }
-
-#endif
